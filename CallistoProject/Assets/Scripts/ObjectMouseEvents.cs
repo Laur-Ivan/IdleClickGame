@@ -11,6 +11,8 @@ public class ObjectMouseEvents : MonoBehaviour, IPointerDownHandler, IPointerUpH
     public event Action OnObjectTouchUp;
 
     private Vector3 touchDownPosition;
+    
+    //private Vector3 touchUpPosition;
 
     public void OnPointerDown(PointerEventData eventData)
     {        
@@ -28,4 +30,5 @@ public class ObjectMouseEvents : MonoBehaviour, IPointerDownHandler, IPointerUpH
     {
         return touchDownPosition;
     }
+   
 }
