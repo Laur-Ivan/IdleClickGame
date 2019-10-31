@@ -38,7 +38,7 @@ public class GameHandler : MonoBehaviour
     {
         float totalScore = totalScoreHandler.IncreaseTotalScore(scorePerTouchHandler.GetScorePerTouch());
         
-        //maybe update the score visual text every X seconds?
+        //to do: update the score visual text every X seconds
         totalScoreVisual.SetTotalScoreText(totalScore);
         
         playerProgressHandler.SaveTotalScore(totalScore);
