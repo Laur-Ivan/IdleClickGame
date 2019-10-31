@@ -21,14 +21,11 @@ public class BasicFactory : MonoBehaviour, IFactory
 
     [SerializeField]private bool startFactory;
 
-    void OnEnable()
-    {
-        /*OnUnitOfTimePassed += factoryVisualTextHandler.SpawnVisualObject;
+//TO DO
+//     void OnEnable()
+//     {
 
-        OnUnitOfTimePassed += totalScoreHandler.IncreaseScoreWithoutReturn;
-
-        OnUnitOfTimePassed += totalScoreVisual.IncreaseTotalScoreText;*/
-    }
+//     }
 
     void OnDisable()
     {
