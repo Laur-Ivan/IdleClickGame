@@ -28,10 +28,11 @@ public class ShopHandler : MonoBehaviour
         shopItemBuyer.SetTotalScoreHandler(totalScoreHandler);
     }
 
-    void Start()
-    {
+//TO DO:
+//     void Start()
+//     {
         
-    }
+//     }
 
     private void OnEnable()
     {        
