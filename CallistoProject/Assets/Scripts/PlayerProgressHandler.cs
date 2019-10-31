@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerProgressHandler : MonoBehaviour
 {
-    //!For now we use PlayerPrefs and save data to a dictionary, but asap serialize the data to a JSON(?) and send it to a database(Playfab?) and then retrieve it
+    //!For now we use PlayerPrefs and save data to a dictionary
+    //TO DO: serialize the data to a JSON(?) and send it to a database(Playfab?) and then retrieve it
     private Dictionary<string, float> playerData = new Dictionary<string, float>();
     
     [SerializeField] private float defaultScorePerTouch;
